@@ -205,6 +205,8 @@ header {
     margin: 0 auto; } }
 
 @media (max-width: 560px) {
+  header {
+  height: 115vh;}
   header .header__menu {
     top: 30px;
     left: 30px; } }
