@@ -206,14 +206,16 @@ header {
 
 @media (max-width: 560px) {
   header {
-  height: 115vh;}
+  height: auto;
+  box-sizing: border-box;
+  padding: 120px 0;}
   header .header__menu {
     top: 30px;
     left: 30px; } }
 
 @media (max-width: 360px) {
   header {
-    height: 115vh; }
+    padding: 80px 0; }
     header h1 {
       font-size: 30px; }
     header p {
